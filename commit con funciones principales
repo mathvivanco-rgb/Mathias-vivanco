@@ -1,0 +1,63 @@
+import os
+os.system("cls")
+
+productos = {}
+inventario = {}
+
+
+def menu():
+    print('''
+========== MENÚ PRINCIPAL ==========
+1. Stock por categoría
+2. Buscar productos por rango de precio
+3. Actualizar precio 
+4. Agregar producto
+5. Eliminar producto
+6. Mostrar productos
+7. Salir
+==================================
+''')
+
+def stock_categoria():
+    pass
+
+def buscar_precio():
+    pass
+
+def actualizar_precio():
+    pass
+
+def agregar_producto():
+    pass
+
+def eliminar_producto():
+    pass
+
+def mostrar_productos():
+    pass
+
+def salir_programa():
+    pass
+
+def leer_opcion():
+    pass
+
+while True:
+    menu()
+    opcion = leer_opcion()
+    if opcion == 1:
+        stock_categoria()
+    elif opcion == 2:
+        buscar_precio()
+    elif opcion == 3:
+        actualizar_precio()
+    elif opcion == 4:
+        agregar_producto()
+    elif opcion == 5:
+        eliminar_producto()
+    elif opcion == 6:
+        mostrar_productos()
+    elif opcion == 7:
+        salir_programa()
+        print("Gracias por utilizar el programa")
+        break
